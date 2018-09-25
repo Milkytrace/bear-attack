@@ -20,6 +20,7 @@ elif A1 == 'A':
 	print('\n你拔出了你的小劍劍，準備戰鬥\n')
 	print('「系統提示」小熊熊的體力值是', eblood, '/100\n')
 	print('「系統提示」你的體力值是', pblood, '/100\n')
+	i = 0
 	while True:
 		i = 0
 		strike = random.randint(1,100)
